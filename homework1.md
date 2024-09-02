@@ -89,7 +89,7 @@ If you ask yourself those 4 questions you are already threat modeling.
 - We sketch the improve the first thing that comes up to our head which is imperfect (we aknowledge our idea and start to improve it).
 
 #### Record your threat modeling work
-- The things we are building can require that we have records of them for future purposes (job...=
+- The things we are building can require that we have records of them for future purposes (job...)
 - Whiteboards can be insufficient.
 - Therse is a business reason to develop a document of record.
 - We can learn new details about the systems we are working on and feed all those details into the question of what can go wrong?
