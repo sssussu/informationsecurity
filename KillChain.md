@@ -284,10 +284,17 @@ $ sudo ufw enable
 
 
 <img width="447" alt="Screenshot 2024-09-02 at 3 22 31" src="https://github.com/user-attachments/assets/0d43a7dd-76c9-4439-a5b2-10ed495c7e18">
+
+
 And I reboot it. On top-left "Applications" menu: Log out: Restart.
 
 Now my desktop is ready.
 
+References:
+https://terokarvinen.com/2021/install-debian-on-virtualbox/
+https://terokarvinen.com
+https://terokarvinen.com/information-security/
+https://lockheedmartin.com/content/dam/lockheed-martin/rms/documents/cyber/LM-White-Paper-Intel-Driven-Defense.pdf
 
 
   
