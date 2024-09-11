@@ -199,3 +199,9 @@ This is the results i got:
 After this I have been stuck and I couldn't figure out what's wrong. I tried to restart but I got the same results.
 
 
+References:
+
+https://www.youtube.com/watch?v=Nh7OrFVyDo0&t=153s
+https://terokarvinen.com/information-security/#h3-hack-to-learn-hacking
+
+
