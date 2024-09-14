@@ -1,4 +1,4 @@
-# Webbed
+# h4 Webbed 
 
 
 ## Broken access control
@@ -213,3 +213,11 @@ src="https://github.com/user-attachments/assets/d85bba2c-9a9e-48d0-bd6a-fb9fc3fd
 - <img width="162" alt="Screenshot 2024-09-15 at 1 02 11" src="https://github.com/user-attachments/assets/a0992dde-0268-4ca8-813f-9cae3e91e34e">
 
 ## e) Johnny tables
+
+References: 
+https://terokarvinen.com/information-security/#h4-webbed
+https://owasp.org/Top10/A01_2021-Broken_Access_Control/
+https://owasp.org/Top10/A05_2021-Security_Misconfiguration/
+https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/
+https://owasp.org/Top10/A03_2021-Injection/
+https://terokarvinen.com/2023/webgoat-2023-4-ethical-web-hacking/
