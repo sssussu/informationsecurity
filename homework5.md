@@ -34,3 +34,42 @@
 - Security relies on the key, not the algorithm. If the key is secret, even if the algorithm is public the message remains secure.
 - Cryptosystem: A combination of the algorithm all possible plaintext, ciphertexts and keys.
 
+### Symmetric Algorithms
+- Use the same key for encryption and decryption.
+- Key must remain secret for security.
+- Types:
+  Stream algorithms: Encrypt bit by bit.
+  Block algorithms: Encrypt fixed-size blocks.
+
+### Public-Key Algorithms:
+- Use a public key for encryption and a private key for decryption.
+- Public key can be shared byt the private key must remain secret.
+
+### Cryptanalysis
+- Aim: Recover plaintext or keys without access.
+- Assumes security relies on the key and not the algorithm.
+
+### Attack types:
+- Ciphertext-only: Analzyzes chiphertext to extract keys.
+- Known-plaintext: Use known plaintext and ciphertext.
+- Chosen-plaintext: Attacker selects plaintext for encryption.
+- Adaptive-chosen: Modifies plaintext choises based on results.
+- Chosen-ciphertext: Attacker selects chihertexts to decrypt.
+- Chosen-key: Knowledge of key relationships.
+- Rubber-hose: Coercive methods ot obtain keys.
+
+### Attacks
+- Known/ Chosen- Plaintext attacks: Common methods where cryptanalyst access encrypted messages or choose plaintexts for encryption.
+- Historical use: Effective during WWII against enemy codes.
+
+### Security Principles
+- Kerckhoffs's Principle: Security relies on the key, not algorithm secrecy.
+- Unconditional Security: Only the one-time pad is unbreakable.
+- Computational Security: Algorithms should resist breaking with current or future resources.
+
+### Attack Complexity
+- Types: Data, processing, and storage complexities define the difficulty of attacks.
+
+### Codes vs. Ciphers
+- Codes: Use fixed phrases; less flexible.
+- Ciphers: Encrypt any data type; more versatile.
