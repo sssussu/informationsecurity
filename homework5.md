@@ -108,3 +108,74 @@ Common Types:
 ### Large Numbers
 - Purpose: use physical analogs to illustrate large cryptographic numbers.
 
+##  Pretty Good indeed. Encrypt and decrypt a message with 'gnupg', using PGP public key cryptography. (Note that here you learn each step; for end users, you can often automate and make it look simple)
+
+In this task we used gnuog tool to encrypt and decrypt messages using Pretty Good Privacy (PGP) public cryptoghraphy.
+
+First we installed gnupg in the terminal by using following commands:
+
+- sudo apt update
+- sudo apt-get install gnupg
+
+
+After Installing gnupg we generated Key pair: (Consist of a public and a private key)
+
+
+
+We chose the option number 1 (RSA and RSA).
+
+
+We chose a key size of 4096 bits.
+
+
+We chose the key to never expire.
+
+
+We entered the name and email address.
+
+We created a passphrase to protect our private key and GPG will create key the key pair for it.
+
+
+
+After this process we exported our public key by using the following command.
+
+- gpg --armor --export selma.el@hotmail.fi > selma.key.asc
+
+
+After this proces the file have been exported in our directory.
+
+Then we can share it with the person we want.
+
+### Encrypt a message:
+For this task we will need the other persons public key to encrypt a message.
+
+In our case we already have the recipient's public key file. 
+
+We imported the recipient public key by the following command:
+
+gpg --armor --export selma.el@hotmail.fi > selma.key.asc
+
+
+To import the recipient public key we wrote the following command:
+
+- gpg --import recipient-public-key-asc.
+
+
+Then we created a file name called mess.text by the following command:
+- echo "This message is for you, keep it a secret" >mess.txt
+
+To decrypt the message the recipient need to run the following command in the terminal:
+
+gpg --decrypt mess.txt.gpg 
+
+The recipient will get asked to enter our passphrase that we created before --> after this the message will be visible for the recipient.
+
+
+
+
+
+
+
+
+
+
