@@ -73,3 +73,38 @@
 ### Codes vs. Ciphers
 - Codes: Use fixed phrases; less flexible.
 - Ciphers: Encrypt any data type; more versatile.
+
+### Steganography
+- Hides secret messages within other messages ( example: using invisible ink or altering images).
+
+### Chihers
+- Substitution Ciphers: replace characters.
+- Types: simple, homophonic, polygram, polyalphabetic.
+- ROT13: simple rotation cipher.
+  
+Security:
+- Simple ciphers are easy to break.
+- Complex ciphers require more effort but can still be broken.
+
+### Transposition Chipers
+- Function: rearrange characters; vulnerable to frequency analysis.
+
+### Rotor Machines
+Function: mechanical encryption devices.
+
+### One-Time Pads
+- Definition: Perfect encryption with a random key used once.
+- Method: Encrypts plaintext by adding key characters (mod 26).
+- Security: unbreakable if keys are random and never reused.
+- Key issues: requires key length = message length.
+- Use: ideal for ultra-secure communications.
+
+### Computer Algorithms
+Common Types:
+- DES: symmetric encryption standard.
+- RSA: public-key for encryption/signatures.
+- DSA: public-key for digital signatures only.
+
+### Large Numbers
+- Purpose: use physical analogs to illustrate large cryptographic numbers.
+
