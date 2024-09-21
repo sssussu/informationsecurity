@@ -108,7 +108,7 @@ Common Types:
 ### Large Numbers
 - Purpose: use physical analogs to illustrate large cryptographic numbers.
 
-##  Pretty Good indeed. Encrypt and decrypt a message with 'gnupg', using PGP public key cryptography. (Note that here you learn each step; for end users, you can often automate and make it look simple)
+## a) Pretty Good indeed. Encrypt and decrypt a message with 'gnupg', using PGP public key cryptography. (Note that here you learn each step; for end users, you can often automate and make it look simple)
 
 In this task we used gnuog tool to encrypt and decrypt messages using Pretty Good Privacy (PGP) public cryptoghraphy.
 
@@ -169,6 +169,46 @@ To decrypt the message the recipient need to run the following command in the te
 gpg --decrypt mess.txt.gpg 
 
 The recipient will get asked to enter our passphrase that we created before --> after this the message will be visible for the recipient.
+
+
+## b) Password manager is open and cloudless. Choose a password manager that 1) works without the cloud and 2) is free, open-source software. Install it. Demonstrate its use. Explain why a password manager is needed i.e. what kind of attacks or threats it protects against.
+
+### KeePassXC
+
+For this task i chose the KeePassXC for a local, cloudless option. 
+
+I started with installing KeePassXC by  the following command:
+
+sudo apt-get installed keepassxc
+
+Then I typed in the command: keepassxc, an it opened like this:
+
+Then I choose:
+- Create a new database.
+- select a strong master password.
+- save the database file to a secure location in your computer.
+
+Then i added an entry by selecting in the KeePassXC "Entries" menu --> New entry.
+
+Then I added the following informations and repeated this process to add more accounts to my database.
+
+
+### Demonstrate its use
+
+I opened the KeePassXC and unlocked the database by using the master password.
+
+
+Then I had the acces to my entries again:
+
+
+Now I have acces to my passwords!
+
+Why password manager is needed.
+
+
+
+
+
 
 
 
