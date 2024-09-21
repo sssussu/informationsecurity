@@ -4,6 +4,7 @@
 ### Sender and Receiver
 - A sender sends a message securely to a receiver.
 - The goal is to prevent eavesdropping.
+  
 
 ### Messages and Encryption
 - A message in its original form is called plaintext or cleartext. --> Plaintext (M) is the original message.
