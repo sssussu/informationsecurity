@@ -53,3 +53,13 @@ Bob decrypts the session key for secure communication.
 - Challenges: Reliance on Trent can create bottlenecks and security risks.
 
 
+## Digital Signatures Quick Overview
+- Digital Signature Trees: Merkle's infinite signature scheme.
+- Public-Key Signing: Alice signs; Bob verifies.
+- Features: Authentic, unforgeable, non-reusable.
+- Timestamping: Prevents misuse.
+- Hash Functions: Efficient signing of document hashes.
+- Multiple Signatures: Supports signatures from several parties.
+- Nonrepudiation: Compromise claims can occur.
+- Applications: Used in treaties and agreements.
+
