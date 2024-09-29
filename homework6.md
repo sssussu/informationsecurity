@@ -64,8 +64,10 @@ Bob decrypts the session key for secure communication.
 - Applications: Used in treaties and agreements.
 
 
-a) Install Hashcat. Test it with a sample hash. See Karvinen 2022: Cracking Passwords with Hashcat 
 
+# a) Install Hashcat. Test it with a sample hash. See Karvinen 2022: Cracking Passwords with Hashcat 
+
+## This homework was done with 2 different computer ( 2 different screenshots)
 Install the apps
 But fist update
 
