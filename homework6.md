@@ -63,3 +63,65 @@ Bob decrypts the session key for secure communication.
 - Nonrepudiation: Compromise claims can occur.
 - Applications: Used in treaties and agreements.
 
+
+a) Install Hashcat. Test it with a sample hash. See Karvinen 2022: Cracking Passwords with Hashcat 
+
+Install the apps
+But fist update
+
+
+
+- <img width="536" alt="Screenshot 2024-09-29 at 7 09 31" src="https://github.com/user-attachments/assets/b7464127-2a8e-48b1-b838-f3bf65745a00">
+
+- <img width="537" alt="Screenshot 2024-09-29 at 7 09 59" src="https://github.com/user-attachments/assets/e200a718-01a9-4f8e-82a8-8d84b0d64d8c">
+
+
+Create a new directory for our work
+
+- <img width="398" alt="Screenshot 2024-09-29 at 7 32 21" src="https://github.com/user-attachments/assets/384ce401-c978-4a22-91fc-4ac089c125c4">
+
+Get a big dictionary
+
+- <img width="538" alt="Screenshot 2024-09-29 at 7 27 33" src="https://github.com/user-attachments/assets/8530a975-5447-445c-9fbc-07318be48ecc">
+
+
+- <img width="380" alt="Screenshot 2024-09-29 at 7 29 27" src="https://github.com/user-attachments/assets/57703b7c-c64b-457f-bac2-bbd74759451b">
+
+- <img width="112" alt="Screenshot 2024-09-29 at 7 29 47" src="https://github.com/user-attachments/assets/d466c8ef-720d-44fc-be87-ddccf7557406">
+
+- <img width="513" alt="Screenshot 2024-09-29 at 7 36 37" src="https://github.com/user-attachments/assets/32caacc6-ec71-4a20-a113-86745246711c">
+
+
+## Crack the Hash
+
+- $ hashcat -m 0 '6b1628b016dff46e6fa35684be6acc96' rockyou.txt -o solved
+- Installed: hashcat
+- -m 0: type of the hash, identified using 'hashid' or 'hashcat' --example-hashes'
+- '6b1628b016dff46e6fa35684be6acc96': The hash we want to crack
+- -o solevd: save the solution as plain text to a new file "solved" in working directory
+
+- <img width="521" alt="Screenshot 2024-09-29 at 7 46 55" src="https://github.com/user-attachments/assets/62055eea-c7a0-42cd-ac7a-b2cbed1816f2">
+
+
+- <img width="422" alt="Screenshot 2024-09-29 at 7 47 33" src="https://github.com/user-attachments/assets/dcd7e9a3-b1f8-47b3-baf8-c1178ee32a94">
+
+# b) Crack this hash: d595b2086532422bbe654bc07ea030df
+
+- <img width="511" alt="Screenshot 2024-09-29 at 7 50 58" src="https://github.com/user-attachments/assets/39988aa5-905f-431d-a909-a3650c1d5cf2">
+
+
+- <img width="524" alt="Screenshot 2024-09-29 at 7 56 19" src="https://github.com/user-attachments/assets/24e9a7d5-6d6d-491d-b155-19e1b8ade5c2">
+
+- <img width="242" alt="Screenshot 2024-09-29 at 7 57 19" src="https://github.com/user-attachments/assets/6fc3ba08-b44b-4c60-8bd2-d7abb2e7a7c1">
+
+## References
+- https://terokarvinen.com/information-security/
+- https://learning.oreilly.com/library/view/applied-cryptography-protocols/9781119096726/10_chap02.html#chap02-sec003
+- https://terokarvinen.com/2022/cracking-passwords-with-hashcat/
+
+
+
+
+
+
+
