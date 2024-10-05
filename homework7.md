@@ -9,7 +9,7 @@
 - Legal to run a relay: No one in the U.S. has been prosecuted for running a Tor relay, although exit relays can attract attention from law enforcement.
 - Easy to use: The Tor Browser Bundle is easy to install and use, and tools like Tails provide full internet anonymity.
 - Tor speed: Though slower than regular browsing, the Tor network has become faster thanks to ongoing improvements.
-- Not foolproof: Anonymity can be compromised if Tor is misused (e.g., logging into personal accounts), so it’s vital to follow best practices and keep software updated.
+- Not foolproof: Anonymity can be compromised if Tor is misused (logging into personal accounts), so it’s vital to follow best practices and keep software updated.
 
 
 ### Shavers & Bair 2016: Hiding Behind the Keyboard: The Tor Browser €; subchapters: "Introduction", "History and Intended Use of The Onion Router", "How The Onion Router Works", "Tracking Criminals Using TOR".
@@ -17,7 +17,7 @@
 - Introduction: Tor is a commonly used tool that allows users to browse the web and communicate anonymously, helping protect their privacy.
 - History and Intended Use of The Onion Router: Originally created by the U.S. Navy to secure communications, Tor is now used by various groups, including activists and journalists, who need anonymity.
 - How The Onion Router Works: Tor anonymizes internet traffic by passing it through several encrypted layers, making it hard to trace the user's original connection.
-- Tracking Criminals Using TOR: Although Tor hides users' identities, law enforcement can sometimes identify criminals by exploiting browser weaknesses or analyzing traffic patterns.
+- Tracking Criminals Using TOR: Although Tor hides users identities, law enforcement can sometimes identify criminals by exploiting browser weaknesses or analyzing traffic patterns.
 
 
 ### a) Install TOR browser and access TOR network (.onion addresses). (Explain in detail how you installed it, and how you got access to TOR. If you got TOR installed in the class, you can write this part from memory. Make not of it if you're writing it from memory and not as you work).
@@ -48,37 +48,60 @@
 ### b) Browse TOR network, find, take screenshots and comment
 
 
-#### search engine for onion sites
+#### Search engine for onion sites
+
+Let's get started
 
 - <img width="597" alt="Screenshot 2024-10-06 at 0 34 09" src="https://github.com/user-attachments/assets/937c4bdf-27c6-40d0-93b9-1847992611fc">
 
 - <img width="595" alt="Screenshot 2024-10-06 at 0 34 45" src="https://github.com/user-attachments/assets/ce2ccaeb-b741-4064-92a4-1eb01ef6a648">
 
+So far this is getting dark...
 
-#### marketplace
+#### Marketplace
+
+Darknet marketplaces serve as hidden online platforms where users can anonymously buy and sell a wide range of goods and services.
 
 - <img width="576" alt="Screenshot 2024-10-06 at 0 35 28" src="https://github.com/user-attachments/assets/e3a09bb9-34f7-4e3e-aece-7ad7d2930385">
 
 
 - <img width="599" alt="Screenshot 2024-10-06 at 0 35 55" src="https://github.com/user-attachments/assets/ac28acff-dd28-4650-82ae-c0fc05abe808">
 
+- Tor3door is a darknet marketplace that operates on the Tor network, specializing in the sale of various illegal goods and services, including drugs, hacking tools, counterfeit items, and more. It is known for its focus on privacy and anonymity, utilizing cryptocurrency for transactions to protect user identities.
+
 - <img width="547" alt="Screenshot 2024-10-06 at 0 37 02" src="https://github.com/user-attachments/assets/ea85e876-8f41-41a2-b362-d0620a0fe303">
 
 - <img width="600" alt="Screenshot 2024-10-06 at 0 37 27" src="https://github.com/user-attachments/assets/363751e9-1367-4b7c-bf72-79e871a808a1">
 
+This is all new to me.
 
-#### forum
+#### Forum
 
 - <img width="586" alt="Screenshot 2024-10-06 at 0 38 16" src="https://github.com/user-attachments/assets/489a5fe1-5dd2-462a-bad8-fc1baab828d1">
 
+
+- Leakbase is a forum that specialize in sharing or selling leaked data.
+
 - <img width="598" alt="Screenshot 2024-10-06 at 0 38 36" src="https://github.com/user-attachments/assets/8882684d-c98c-49d4-b8ce-1420bd8c42e2">
+
+- Nulled.io is a forum where users share and discuss "nulled" software, which are cracked or pirated versions of applications and plugins. It allows members to download free software that normally requires a paid license, often targeting web development tools and games
 
 - <img width="591" alt="Screenshot 2024-10-06 at 0 39 03" src="https://github.com/user-attachments/assets/a5957c7a-07bb-4a14-a773-13fac548395d">
 
 
-#### a site for a well known organization that has a physical street address in the real world
+#### A site for a well known organization that has a physical street address in the real world
 
-- <img width="601" alt="Screenshot 2024-10-06 at 0 39 52" src="https://github.com/user-attachments/assets/1361c0e0-c1e2-4ecc-aa40-cdf9a64b82eb">
+-  <img width="593" alt="Screenshot 2024-10-06 at 1 13 38" src="https://github.com/user-attachments/assets/92190900-2549-4328-897d-b38784d47658">
+
+
+### References 
+
+https://terokarvinen.com/information-security/
+https://learning.oreilly.com/library/view/hiding-behind-the/9780128033524/XHTML/B9780128033401000021/B9780128033401000021.xhtml#s0010
+https://www.eff.org/deeplinks/2014/07/7-things-you-should-know-about-tor
+
+
+
 
 
 
